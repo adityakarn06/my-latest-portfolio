@@ -18,7 +18,7 @@ const PERSONAL: Project[] = [
     description:
       "AI-powered learning platform with Chat with PDF, MCQ generator, study groups, and centralized video library.",
     stack: ["Next.js", "TypeScript", "Tailwind", "Gemini", "Qdrant", "langchain", "Postgres", "Prisma", "Tanstack Query", "Shadcn UI", "Node.js", "Express", "Socket.io", "Turborepo"],
-    live: "edwise.adityakarn.tech",
+    live: "https://edwise.adityakarn.tech",
     repo: "https://github.com/adityakarn06/edwise",
   },
   {
@@ -26,14 +26,14 @@ const PERSONAL: Project[] = [
     description:
       "Realtime whiteboard built from scratch with video calling and chat.",
     stack: ["NextJS", "WebRTC", "WebSockets", "Node.js", "Postgres", "Prisma", "Tanstack Query", "Tailwind", "Turborepo"],
-    live: "canvas.adityakarn.tech",
+    live: "https://canvas.adityakarn.tech",
     repo: "https://github.com/adityakarn06/collaborative-drawing-app",
   },
   {
     name: "Second Brain",
     description: "AI-powered solution to capture and organize thoughts.",
     stack: ["React", "MongoDB", "NodeJS", "Express", "Tailwind", "Qdrant", "langchain"],
-    live: "secondbrain.adityakarn.tech",
+    live: "https://secondbrain.adityakarn.tech",
     repo: "https://github.com/adityakarn06/Second-Brain",
   },
 ];
@@ -43,19 +43,19 @@ const FREELANCE: Project[] = [
     name: "Vessara",
     description: "E-commerce app for a jewellery brand.",
     stack: ["Next.js", "Razorpay", "PostgreSQL", "Prisma", "Tanstack Query", "Tailwind", "Cloudinary", "AWS", "Clerk"],
-    live: "vessara.co.in",
+    live: "https://vessara.co.in",
   },
   {
     name: "Mithilangan",
     description: "Online shopping app for Mithila paintings.",
     stack: ["NextJS", "Express", "PostgreSQL", "In progress"],
-    live: "mithilangan.in",
+    live: "https://mithilangan.in",
   },
   {
     name: "Heyycutie",
     description: "Online dating app.",
     stack: ["React Native", "Firebase", "In progress"],
-    live: "heyycutie.com",
+    live: "https://heyycutie.com",
   },
 ];
 
