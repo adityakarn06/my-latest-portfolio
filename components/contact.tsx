@@ -19,7 +19,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-20">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <motion.h2
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -30,8 +30,8 @@ export default function Contact() {
           Contact
         </motion.h2>
 
-        <div className="mt-8 grid gap-8 md:grid-cols-2">
-          <form onSubmit={onSubmit} className="rounded-xl border border-white/10 bg-white/5 p-6 shadow-sm">
+        <div className="mt-8 grid gap-6 md:grid-cols-2 md:gap-8">
+          <form onSubmit={onSubmit} className="rounded-xl border border-white/10 bg-white/5 p-5 shadow-sm sm:p-6">
             <div className="grid gap-4">
               <div>
                 <label htmlFor="name" className="text-sm text-white/70">Name</label>
@@ -47,25 +47,25 @@ export default function Contact() {
               </div>
             </div>
             <div className="mt-5">
-              <button type="submit" className="inline-flex items-center justify-center rounded-lg border border-white/10 bg-white/10 px-4 py-2.5 text-sm font-medium text-white shadow-sm ring-1 ring-white/10 transition hover:bg-white/20">
+              <button type="submit" className="inline-flex w-full items-center justify-center rounded-lg border border-white/10 bg-white/10 px-4 py-2.5 text-sm font-medium text-white shadow-sm ring-1 ring-white/10 transition hover:bg-white/20 sm:w-auto">
                 Send email
               </button>
             </div>
           </form>
 
-          <div className="rounded-xl border border-white/10 bg-white/5 p-6 text-white/75">
+          <div className="rounded-xl border border-white/10 bg-white/5 p-5 text-white/75 sm:p-6">
             <p className="text-sm">Prefer socials?</p>
-            <div className="mt-4 flex items-center gap-3">
-              <a href="https://github.com/adityakarn06" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-black/30 px-3 py-2 text-sm hover:bg-black/40">
+            <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+              <a href="https://github.com/adityakarn06" target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center gap-2 rounded-md border border-white/10 bg-black/30 px-3 py-2 text-sm hover:bg-black/40">
                 <Github size={16} /> GitHub
               </a>
-              <a href="https://www.linkedin.com/in/adityakarn06/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-black/30 px-3 py-2 text-sm hover:bg-black/40">
+              <a href="https://www.linkedin.com/in/adityakarn06/" target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center gap-2 rounded-md border border-white/10 bg-black/30 px-3 py-2 text-sm hover:bg-black/40">
                 <Linkedin size={16} /> LinkedIn
               </a>
-              <a href="https://www.instagram.com/karnadityaa/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-black/30 px-3 py-2 text-sm hover:bg-black/40">
+              <a href="https://www.instagram.com/karnadityaa/" target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center gap-2 rounded-md border border-white/10 bg-black/30 px-3 py-2 text-sm hover:bg-black/40">
                 <Instagram size={16} /> Instagram
               </a>
-              <a href="https://x.com/adityakarn06" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-black/30 px-3 py-2 text-sm hover:bg-black/40">
+              <a href="https://x.com/adityakarn06" target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center gap-2 rounded-md border border-white/10 bg-black/30 px-3 py-2 text-sm hover:bg-black/40">
                 <Twitter size={16} /> Twitter
               </a>
             </div>
