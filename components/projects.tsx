@@ -30,11 +30,10 @@ const PERSONAL: Project[] = [
     repo: "https://github.com/adityakarn06/collaborative-drawing-app",
   },
   {
-    name: "Second Brain",
-    description: "AI-powered solution to capture and organize thoughts.",
-    stack: ["React", "MongoDB", "NodeJS", "Express", "Tailwind", "Qdrant", "langchain"],
-    live: "https://secondbrain.adityakarn.tech",
-    repo: "https://github.com/adityakarn06/Second-Brain",
+    name: "Heyycutie",
+    description: "Online dating app.",
+    stack: ["React Native", "Firebase", "In progress"],
+    live: "https://heyycutie.com",
   },
 ];
 
@@ -50,12 +49,6 @@ const FREELANCE: Project[] = [
     description: "Online shopping app for Mithila paintings.",
     stack: ["NextJS", "Express", "PostgreSQL", "In progress"],
     live: "https://mithilangan.in",
-  },
-  {
-    name: "Heyycutie",
-    description: "Online dating app.",
-    stack: ["React Native", "Firebase", "In progress"],
-    live: "https://heyycutie.com",
   },
 ];
 
